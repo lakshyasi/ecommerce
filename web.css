@@ -5,10 +5,11 @@ body {
 }
 
 header, footer {
-    background-color: #1a79b4;
-    color: white;
+    background-color: #002c54;
+    color:#c5001a;
     text-align: center;
     padding: 1em 0;
+    
 }
 
 nav ul {
@@ -42,12 +43,12 @@ main {
 
 button {
     background-color: #05c198;
-    color: white;
+    color: rgb(68, 13, 156);
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #94c918;
 }

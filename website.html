@@ -5,21 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My E-commerce Store</title>
     <link rel="stylesheet" href="web.css">
+    <script src="Web.js"></script>
 </head>
 <body>
     <header>
-        <h1>Composite Liquor Shop,RGPV</h1>
-        <p>&copy; 2024 My E-commerce Store</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
+        <div class="container">
+        <nav>
+        <div class="logo">
+            <img src="RGPVLOGO.jpeg" alt="left" class="float-start" width="100">
+        <h1>Composite Liquor Shop,RGPV</h1></div>
+        <p>You must be 18+ to order</p>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search box" class="fa fa-search"></label>
+            <div class="fa fa-search" id="search-btn"></div>
+        </form>
+        
+          <ul>
+            <li><a href="#Composite Liquor Shop,RGPV">HOME</a></li>
+            <li><a href="#products.html">PRODUCTS</a></li>
+            <li><a href="#WSK">Whiskey</a></li> 
+            <li><a href="#RM">Rum</a></li>
+            <li><a href="#Vodka">Vodka</a></li>
+            <li><a href="#BR">Beer</a></li>                
         </ul>
-    </nav>
+        </ul>
+        <i id="cart" class="fa-solid fa-cart-shopping"></i
+    </nav></header>
     <main>
+        
         <section class="featured-products">
-            <h2>All types of Whiskey,Vodka,Rum,Beers Available</h2>
+            
+            <h2>All your favourite drinks Available</h2>
+            <h3>Have a drink refresh your mood!!!! </h3>
             <!-- Add product cards here -->
         </section>
     </main>
@@ -38,15 +56,26 @@
 </head>
 <body>
     <header>
-        <h1>Whiskey</h1>
+        <section id="WSK"></section>
+        <h1>WHISKEY</h1>
+        <h3><ul>Available Stock </ul>
+            <ul>
+            <li><a href="#BP">Blenders Pride</a></li>
+            <li><a href="#RL">Red Label</a></li>
+            <li><a href="#JD">Jack Daniels</a></li> 
+            <li><a href="#INDRI">Indri</a></li>
+            <li><a href="#IB">Imperial Blue</a></li>
+            <li><a href="#RS">Royal stag</a></li>                
+            </ul>
+        </h3>
     </header>
+    </body>
     <nav>
-        
     </nav>
     <main>
-        <section class="brand-blenders-premium-whisky-lifestyle-original">
+        <section class="brand-blenders-premium-whisky-lifestyle-original" id="BP">
             <h1>Blenders Pride</h1>
-            <img src="bp.webp" width="140">
+            <img src="bp1.jpg" width="200">
             
            <bold><span class="price"</bold></span></section><br>
         </section>
@@ -68,12 +97,13 @@
                         <p><br>₹180/90ml</br>
                             <button>Add to Cart</button>
                             <button>Buy Now</button></p>
-                            <h1>Red Label</h1>
-                            <img src="red label.avif" width="140">
+                            <section class="product-details" id="RL"></section>
+                            <h1>Red Label</h1>                            
+                            <img src="red label.avif" width="200">
                             
                            <bold><span class="price"</bold></span></section><br>
                         </section>
-                        <section class="product-details">
+                        
                             <div class="product-image">
                                 <!-- Product image here -->
                             </div>
@@ -92,7 +122,8 @@
                                             <button>Add to Cart</button>
                                             <button>Buy Now</button></p>
                                             <h1>Jack Daniels</h1>
-                                            <img src="jack daniels.jpeg" width="140">
+                                            <section id="JD"></section>
+                                            <img src="jd.jpg" width="200">
                                             
                                            <bold><span class="price"</bold></span></section><br>
                                         </section>
@@ -115,7 +146,8 @@
                                                             <button>Add to Cart</button>
                                                             <button>Buy Now</button></p>
                                                             <h1>Indri</h1>
-                                                            <img src="indri.jpg" width="140">
+                                                            <section id="INDRI"></section>
+                                                            <img src="indri.jpg" width="200">
                                                             
                                                            <bold><span class="price"</bold></span></section><br>
                                                         </section>
@@ -131,7 +163,8 @@
                                                                
                                                                                        
                                                                             <h1>Black Dog</h1>
-                                                                            <img src="blackdog.jpeg" width="140">
+                                                                            <section id="BD"></section>
+                                                                            <img src="bd.jpg" width="200">
                                                                             
                                                                            <bold><span class="price"</bold></span></section><br>
                                                                         </section>
@@ -155,7 +188,8 @@
                                                                                             <button>Buy Now</button></p>
                                                                                             
                                                                                             <h1>Imperial Blue</h1>
-                                                                                            <img src="ib.jpeg" width="140">
+                                                                                            <section id="IB"></section>
+                                                                                            <img src="ib.jpeg" width="200">
                                                                                             
                                                                                            <bold><span class="price"</bold></span></section><br>
                                                                                         </section>
@@ -180,7 +214,8 @@
                                                                                                             
                                                                                                                        
                                                                                                             <h1>Royal Stag</h1>
-                                                                                                            <img src="rs.j.jpeg" width="140">
+                                                                                                            <section id="RS"></section>
+                                                                                                            <img src="rs.jpg" width="200">
                                                                                                             
                                                                                                            <bold><span class="price"</bold></span></section><br>
                                                                                                         </section>
@@ -222,7 +257,16 @@
 </html>
 <body>
     <header>
+        <section id="RM"></section>
         <h1>Rum</h1>
+        <h3><ul>Available Stock </ul>
+            <ul>
+            <li><a href="#OM">Old Monk</a></li>
+            <li><a href="#BC">Bacardi</a></li>
+            <li><a href="#CT">Contessa</a></li> 
+            <li><a href="#MC">McDowell</a></li>               
+            </ul>
+        </h3>
     </header>
     <nav>
         
@@ -230,7 +274,8 @@
     <main>
         
             <h1>Old Monk</h1>
-            <img src="old monk.jpeg" width="140">
+            <section id="OM"></section>
+            <img src="old monk.jpeg" width="200">
             
            <bold><span class="price"</bold></span></section><br>
         </section>
@@ -251,7 +296,8 @@
                         <button>Buy Now</button></p>
                         
                             <h1>Bacardi</h1>
-                            <img src="barcadi.jpeg" width="140">
+                            <section id="BC"></section>
+                            <img src="barcadi.jpeg" width="200">
                             
                            <bold><span class="price"</bold></span></section><br>
                         </section>
@@ -272,7 +318,8 @@
                                         <button>Buy Now</button></p>
                                         >
                                             <h1>Contess</h1>
-                                            <img src="contessa.jpeg" width="140">
+                                            <section id="CT"></section>
+                                            <img src="contessa.jpeg" width="200">
                                             
                                            <bold><span class="price"</bold></span></section><br>
                                         </section>
@@ -293,7 +340,8 @@
                                                         <button>Buy Now</button></p>
                                                         
                                                             <h1>Mac Dowell</h1>
-                                                            <img src="mac.jpg" width="140">
+                                                            <section id="MC"></section>
+                                                            <img src="mac.jpg" width="200">
                                                             
                                                            <bold><span class="price"</bold></span></section><br>
                                                         </section>
@@ -323,7 +371,16 @@
 </html>
 <body>
     <header>
+        <section id="Vodka"></section>
         <h1>Vodka</h1>
+        <h3><ul>Available Stock </ul>
+            <ul>
+            <li><a href="#MM">Magic Moments</a></li>
+            <li><a href="#GG">Grey Goose</a></li>
+            <li><a href="#AV">Absolute Vodka</a></li> 
+            <li><a href="#SF">Smirnoff</a></li>              
+            </ul>
+        </h3>
     </header>
     <nav>
         
@@ -331,7 +388,8 @@
     <main>
         <section class="brand-blenders-premium-whisky-lifestyle-original">
             <h1>Magic Moments</h1>
-            <img src="magic moments.jpeg" width="140">
+            <section id="MM"></section>
+            <img src="magic moments.jpeg" width="200">
             
            <bold><span class="price"</bold></span></section><br>
         </section>
@@ -352,7 +410,8 @@
                         <button>Buy Now</button></p>
                         
                             <h1>Grey Goose</h1>
-                            <img src="grey goose.jpeg" width="140">
+                            <section id="GG"></section>
+                            <img src="grey goose.jpeg" width="200">
                             
                            <bold><span class="price"</bold></span></section><br>
                         </section>
@@ -368,7 +427,8 @@
                                 
                                                               
                                             <h1>Absolute Vodka</h1>
-                                            <img src="absolute.jpg" width="140">
+                                            <section id="AV"></section>
+                                            <img src="absolute.jpg" width="200">
                                             
                                            <bold><span class="price"</bold></span></section><br>
                                         </section>
@@ -389,7 +449,8 @@
                                                         <button>Buy Now</button></p>
                                                         
                                                             <h1>Smirnoff</h1>
-                                                            <img src="smirnoff.jpeg" width="140">
+                                                            <section id="SF"></section>
+                                                            <img src="smirnoff.jpeg" width="200">
                                                             
                                                            <bold><span class="price"</bold></span></section><br>
                                                         </section>
@@ -419,7 +480,15 @@
 </html>
 <body>
     <header>
+        <section id="BR"></section>
         <h1>Beer</h1>
+        <h3><ul>Available Stock </ul>
+            <ul>
+            <li><a href="#KF">Kingfisher</a></li>
+            <li><a href="#BR">Bira</a></li>
+            <li><a href="#HN">Hunter</a></li>                
+            </ul>
+        </h3>
     </header>
     <nav>
         
@@ -427,7 +496,8 @@
     <main>
         <section class="brand-blenders-premium-whisky-lifestyle-original">
             <h1>Kingfisher</h1>
-            <img src="kingfisher.jpg" width="140">
+            <section id="KF"></section>
+            <img src="kingfisher.jpg" width="200">
             
            <bold><span class="price"</bold></span></section><br>
         </section>
@@ -448,7 +518,8 @@
                         <button>Buy Now</button></p>
                         
                             <h1>Bira</h1>
-                            <img src="bira.jpeg" width="140">
+                            <section id="BR"></section>
+                            <img src="bira.jpeg" width="200">
                             
                            <bold><span class="price"</bold></span></section><br>
                         </section>
@@ -469,7 +540,8 @@
                                         <button>Buy Now</button></p>
                                             
                                             <h1>Hunter</h1>
-                                            <img src="hunter.jpeg" width="140">
+                                            <section id="HN"></section>
+                                            <img src="hunter.jpeg" width="200">
                                             
                                            <bold><span class="price"</bold></span></section><br>
                                         </section>
